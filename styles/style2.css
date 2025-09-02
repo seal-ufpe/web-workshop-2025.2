@@ -1,0 +1,63 @@
+@import url(../custom.css);
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #ff6b6b;
+  color: white;
+}
+
+#foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+div {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #ff6b6b;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+/* 🌙 Dark mode */
+body.dark {
+  background: linear-gradient(to right, #1f1f1f, #121212);
+  color: #e0e0e0;
+}
+
+body.dark div {
+  background: #1f1f1f;
+  color: #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+body.dark header {
+  background: #333;
+}
+
+body.dark h2 {
+  color: #ff8fa3;
+}

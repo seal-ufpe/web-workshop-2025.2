@@ -1,0 +1,19 @@
+button {
+  /* background-color: ; */
+  /* border-radius: ; */
+  /* padding: ; */
+  /* margin-bottom: ; */
+}
+
+button:hover {
+  /* cursor: ; */
+}
+
+a {
+  font-weight: bold;
+  color: #444444;
+}
+
+body.dark a {
+  color: #e5e5e5;
+}
